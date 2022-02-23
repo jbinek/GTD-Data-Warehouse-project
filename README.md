@@ -23,10 +23,10 @@ Preprocessing and cleaning data tasks are very important part of the project as 
 operations performed on the dataset to modify ambiguous data which can be a bottleneck to analytical results. It also helps in converting this raw data into a more meaningful, focused, interpretable and readable format.
 The GTD dataset is incomplete, inconsistent, contains some errors, often missing attributes values, and outliers. Below data preprocessing tasks helped to resolve these discrepancies.
 
-a) Manual analysis of the dataset and removing useless and irrelevant columns (analysis based on the official codebook - https://www.start.umd.edu/gtd/downloads/Codebook.pdf)
-b) Calculating percentage of missing values for each column and removing columns for which calculated value is equal or greater than 80% (dimensionality reduction)
-c) Analysis of empty values and their conversion
-d) Dimensionality reduction caused by geographical changes
+-  Manual analysis of the dataset and removing useless and irrelevant columns (analysis based on the official codebook - https://www.start.umd.edu/gtd/downloads/Codebook.pdf)
+-   Calculating percentage of missing values for each column and removing columns for which calculated value is equal or greater than 80% (dimensionality reduction)
+-   Analysis of empty values and their conversion
+-   Dimensionality reduction caused by geographical changes
 
 3. Relational database
 
